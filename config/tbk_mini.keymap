@@ -89,10 +89,10 @@
 
         default_layer {
             bindings = <
-&kp TAB           &kp Q  &kp W  &kp E   &kp R      &kp T   &kp Y  &kp U      &kp I          &kp O    &kp P          &kp LEFT_ALT
-&kp LEFT_SHIFT    &kp A  &kp S  &kp D   &kp F      &kp G   &kp H  &kp J      &kp K          &kp L    &kp SEMICOLON  &kp SQT
-&kp LEFT_CONTROL  &kp Z  &kp X  &kp C   &kp V      &kp B   &kp N  &kp M      &kp COMMA      &kp DOT  &kp FSLH       &none
-                                &tog 2  &kp ENTER  &tog 1  &mo 1  &kp SPACE  &kp BACKSPACE
+&kp TAB           &kp Q  &kp W  &kp E  &kp R      &kp T  &kp Y  &kp U      &kp I          &kp O    &kp P          &kp LEFT_ALT
+&kp LEFT_SHIFT    &kp A  &kp S  &kp D  &kp F      &kp G  &kp H  &kp J      &kp K          &kp L    &kp SEMICOLON  &kp SQT
+&kp LEFT_CONTROL  &kp Z  &kp X  &kp C  &kp V      &kp B  &kp N  &kp M      &kp COMMA      &kp DOT  &kp FSLH       &none
+                                &to 2  &kp ENTER  &to 1  &mo 1  &kp SPACE  &kp BACKSPACE
             >;
         };
 
@@ -101,7 +101,7 @@
 &kp F1     &kp F2        &kp F3        &kp F4        &kp F5            &kp F6       &kp F7          &kp F8             &kp F9         &kp F10  &kp F11  &kp F12
 &kp GRAVE  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4      &kp N5       &kp NUMBER_6    &kp N7             &kp N8         &kp N9   &kp N0   &kp NON_US_BACKSLASH
 &none      &none         &none         &kp MINUS     &kp LEFT_BRACKET  &kp AT_SIGN  &kp PERIOD      &kp RIGHT_BRACKET  &kp EQUAL      &none    &none    &tog 0
-                                       &tog 0        &kp CAPSLOCK      &tog 2       &kp LEFT_SHIFT  &kp SPACE          &kp BACKSPACE
+                                       &to 0         &kp CAPSLOCK      &to 2        &kp LEFT_SHIFT  &kp SPACE          &kp BACKSPACE
             >;
         };
 
@@ -110,16 +110,7 @@
 &none  &none  &kp LS(F10)  &kp RS(F9)     &kp LA(ENTER)  &none          &kp PRINTSCREEN  &kp PAGE_UP           &kp UP_ARROW    &kp PAGE_DOWN          &kp LG(R)  &kp HOME
 &none  &none  &none        &kp LC(SLASH)  &kp LC(F)      &kp LS(LC(L))  &none            &kp LEFT_ARROW        &kp DOWN_ARROW  &kp RIGHT_ARROW        &none      &none
 &none  &none  &none        &kp LC(Z)      &kp LC(C)      &kp LC(V)      &none            &kp LC(LEFT_BRACKET)  &none           &kp LC(RIGHT_BRACKET)  &none      &tog 0
-                           &tog 1         &kp ENTER      &tog 0         &kp LEFT_WIN     &kp SPACE             &kp DEL
-            >;
-        };
-
-        layer_3 {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans  &trans  &trans  &trans
+                           &to 1          &kp ENTER      &to 0          &kp LEFT_WIN     &kp SPACE             &kp DEL
             >;
         };
     };
