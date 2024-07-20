@@ -109,7 +109,7 @@
             bindings = <
 &none  &none  &kp LS(F10)  &kp RS(F9)     &kp LA(ENTER)  &none          &kp PRINTSCREEN  &kp PAGE_UP           &kp UP_ARROW    &kp PAGE_DOWN          &kp LG(R)  &kp HOME
 &none  &none  &none        &kp LC(SLASH)  &kp LC(F)      &kp LS(LC(L))  &none            &kp LEFT_ARROW        &kp DOWN_ARROW  &kp RIGHT_ARROW        &none      &none
-&none  &none  &none        &kp LC(Z)      &kp LC(C)      &kp LC(V)      &none            &kp LC(LEFT_BRACKET)  &none           &kp LC(RIGHT_BRACKET)  &none      &to 0
+&none  &none  &kp LC(Y)    &kp LC(Z)      &kp LC(C)      &kp LC(V)      &none            &kp LC(LEFT_BRACKET)  &none           &kp LC(RIGHT_BRACKET)  &none      &to 0
                            &to 1          &kp ENTER      &to 0          &kp LEFT_WIN     &kp SPACE             &kp DEL
             >;
         };
